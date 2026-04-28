@@ -1,0 +1,29 @@
+{%extends "/shared/layout.html" %}
+
+
+{% block title %}Home{% endblock %}
+
+
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="/static/home.css" />
+{% endblock %}
+
+
+{% block content %}
+    <div class="container d-flex h-75 home-bg">
+        <div class="row justify-content-center align-self-center welcome">
+            <h3>WELCOME to the Digital Library</h3>
+            <div class="search-card">
+            <form action="/books/search" method="GET">
+              <div class="form-group">
+                <label>Search</label>
+                <input type="search" autocomplete="off" name="keyword" autofocus class="form-control" placeholder="Search for books...">
+                <small class="form-text text-muted">Available books will be shown to members.</small>
+              </div>
+              <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

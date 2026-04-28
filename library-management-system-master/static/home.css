@@ -1,0 +1,122 @@
+.welcome {
+	    margin: 0 auto;
+}
+
+.welcome h1 {
+	font-size: 3.5em;
+}
+.welcome {
+      margin: 0 auto;
+}
+
+
+.welcome h1 {
+  font-size: 3.5em;
+}
+
+
+.home-bg {
+  min-height: 80vh;
+
+
+  /* soft gradient background */
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4ecf3 100%);
+
+
+  border-radius: 10px;
+  padding: 30px;
+}
+
+
+.welcome h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+
+/* card around search */
+.search-card {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+
+
+/* nicer input + button */
+.form-control {
+  border-radius: 6px;
+}
+
+
+.btn-primary {
+  background-color: #2f80ed;
+  border-color: #2f80ed;
+  border-radius: 6px;
+}
+.home-bg {
+  min-height: 80vh;
+
+
+  background-color: #f5f7fa;
+  background-image:
+    radial-gradient(#c9d6e2 1px, transparent 1px);
+  background-size: 22px 22px;
+
+
+  border-radius: 10px;
+  padding: 30px;
+}
+/* Slightly better navbar */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Center the homepage card better */
+.welcome {
+  max-width: 560px;
+  margin: auto;
+}
+
+
+/* Better heading */
+.welcome h3 {
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+
+/* Better label */
+.form-group label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+
+/* Better search box */
+.form-control {
+  height: 44px;
+  border: 1px solid #cbd6e2;
+}
+
+
+/* Button hover */
+.btn-primary:hover {
+  background-color: #1c64c7;
+  border-color: #1c64c7;
+}
+
+
+/* Small subtitle under heading */
+.welcome h3::after {
+  content: "Search and reserve books from the library catalogue";
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6c757d;
+  margin-top: 8px;
+}
