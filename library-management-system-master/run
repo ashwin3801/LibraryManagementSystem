@@ -1,0 +1,12 @@
+#!/bin/bash
+pip install -r requirements.txt
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+
+conda activate pp
+
+service mysql start
+sudo /usr/local/mysql/support-files/mysql.server start
+
+flask run
